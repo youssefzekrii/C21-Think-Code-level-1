@@ -1,22 +1,14 @@
 print ("Welcome!")
-print ("please answer in English and click space once before you answer")
+print ("Answers the questions in English, please.")
+print ("Made by Youssef ")
 
+a = input ("what is your name?") 
+b = input ("Whats your age?")
+c = input ("Where do you live?")
+d = input ("What are your hobbys?")
+e = input ("Whats your favorite clothing brand?")
+f = input ("Whats your favorite food?")
+g = input ("What do you do in your free time?")
 
-
-a = input ("what is your name?")
-print ("hello,"+ a )
-
-b = input ("are you older than 18?")
-if b == 'no' or b =='NO':
-    print ("we are sorry, but you have to be older than 18")
-    if b == 'yes' or b == 'YES':
-        print ("thats good to hear!")
-
-        c = input("how old are you?")
-        
-        print (c)
-        if c==19:
-            print("okay nice, im also 19 years old")
-    else:
-        print("okay thats nice," + a)
-
+print ("Hi, " + a + "you are very young, you are " + b + "You live in " + c + "That was my favorite place to be" )
+print ("Oh I like " + d + "aswell", "I wear " + e + "much for school or outside stuff", "If im home and and my mom coocked" + f + "Its delicious!" , "IF i have free time i would like to do the same as you " + g)
